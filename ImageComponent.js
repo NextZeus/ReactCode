@@ -1,3 +1,37 @@
+/*
+Image属性方法
+
+1.onLayout   (function) 当Image布局发生改变的，会进行调用该方法，调用的代码为:
+
+{nativeEvent: {layout: {x, y, width, height}}}.
+
+2.onLoad (function):当图片加载成功之后，回调该方法
+
+3.onLoadEnd (function):当图片加载失败回调该方法，该不会管图片加载成功还是失败
+
+4.onLoadStart (fcuntion):当图片开始加载的时候调用该方法
+
+5.resizeMode  缩放比例,可选参数('cover', 'contain', 'stretch') 该当图片的尺寸超过布局的尺寸的时候，会根据设置Mode进行缩放或者裁剪图片
+
+6.source {uri:string} 进行标记图片的引用，该参数可以为一个网络url地址或者一个本地的路径
+
+(四)Image样式风格
+
+1.FlexBox  支持弹性盒子风格
+
+2.Transforms  支持属性动画                3.resizeMode  设置缩放模式
+
+4.backgroundColor 背景颜色
+
+5.borderColor     边框颜色              6.borderWidth 边框宽度
+
+7.borderRadius  边框圆角
+
+8.overflow 设置图片尺寸超过容器可以设置显示或者隐藏('visible','hidden')
+
+9.tintColor  颜色设置         10.opacity 设置不透明度0.0(透明)-1.0(完全不透明)
+*/
+
 'use strict'
 import React,{
 	AppRegistry,
