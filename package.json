@@ -1,0 +1,22 @@
+{
+  "name": "learnreactnative",
+  "version": "1.0.0",
+  "description": "",
+  "main": "DrawerLayoutAndroid.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NextZeus/ReactCode.git"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "xiaodong.li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NextZeus/ReactCode/issues"
+  },
+  "homepage": "https://github.com/NextZeus/ReactCode"
+}
