@@ -60,3 +60,5 @@ class SegmentedControlIOSDemo extends Component{
         );
     }
 }
+
+AppRegistery.registerComponent('SegmentedControlIOSDemo',()=>SegmentedControlIOSDemo);
